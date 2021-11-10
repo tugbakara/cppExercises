@@ -23,11 +23,11 @@ Rectangle::Rectangle(int l,int b)
 }
 int Rectangle::getBreadth()
 {
-    return length;
+    return breadth;
 }
 int Rectangle::getLength()
 {
-    return breadth;
+    return length;
 }
 void Rectangle::setLength(int length)
 {
@@ -56,7 +56,7 @@ class Cuboid : public Rectangle
     public:
     Cuboid(int length = 0,int breadth = 0,int height = 0);
     int getHeight();
-    void setHeight(int heigth);
+    void setHeight(int height);
     int volume();
     friend ostream &operator<<(ostream &op,Cuboid &c);
     ~Cuboid();

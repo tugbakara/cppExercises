@@ -1,5 +1,3 @@
-/*                          Basic cpp class - inheritance example,
-                                                author: tugbakara                               */
 #include <iostream>
 using namespace std;
 class Rectangle

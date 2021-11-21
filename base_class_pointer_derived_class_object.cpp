@@ -21,6 +21,10 @@ int main()
     Base *p;
     p = new Derived();
     p->fun1();
+    Derived d;
+    Base *ptr = &d;
+    ptr->fun1();
+    //ptr->fun2(); yapamayız.
     // p->fun2(); yapamayız.
 }
 /* When you have a pointer of base class, you can call any functions which are present inside the base class. You cannot call

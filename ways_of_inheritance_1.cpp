@@ -11,8 +11,8 @@ class B: protected A
     public:
     void fun() // and we can access them in class.
     {
-        int b = 0;
-        int c = 0;
+        b = 0;
+        c = 0;
     }
 };
 class C: public B
@@ -20,8 +20,8 @@ class C: public B
     public:
     void funn()
     {
-        int b = 1;
-        int c = 1;
+        b = 1;
+        c = 1;
     }
 };
 int main()

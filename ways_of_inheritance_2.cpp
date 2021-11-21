@@ -20,8 +20,8 @@ class B: private A
     void funn()
     {
         // int a = 11; private olduğu için class içinde dahi erişilemez.
-        int b = 11;
-        int c = 11;
+        b = 11;
+        c = 11;
     }
 
 };
@@ -30,8 +30,8 @@ class C: public B
     public:
     void funC()
     {
-        int b = 23;
-        int c = 23;
+        // b = 23;
+        // c = 23;
     }
     
 };

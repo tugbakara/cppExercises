@@ -8,7 +8,7 @@ class Base
         cout<<"Base Constructor"<<endl;
     }
     ~Base()
-    {
+    { 
         cout<<"Base Destructor"<<endl;
     }
 };

@@ -20,7 +20,7 @@ int rC(int n,int r)
 }
 int main()
 {
-    int n=2,r=3;
+    int n=5,r=2;
     cout<<"Using formula: "<<fC(n,r)<<endl;
     cout<<"Using recursion: "<<rC(n,r)<<endl;
 }

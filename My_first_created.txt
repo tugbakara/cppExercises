@@ -1,3 +1,0 @@
-This is my first txt file that is created from c++ code.
-An I hope I will find where it is after execution.
-Bye, 46656!

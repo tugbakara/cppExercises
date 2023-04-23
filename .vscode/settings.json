@@ -1,7 +1,0 @@
-{
-    "ros.distro": "foxy",
-    "files.associations": {
-        "iostream": "cpp",
-        "ostream": "cpp"
-    }
-}
